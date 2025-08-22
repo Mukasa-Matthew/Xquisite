@@ -237,7 +237,7 @@ export default function Contact() {
                             <FaMapMarkerAlt className="me-3 text-primary" />
                             Find Us in Kampala
                         </h2>
-                        <p className="lead text-muted">Visit our store in the heart of Uganda's capital city</p>
+                        <p className="lead text-muted">Visit our store in the heart of Uganda&apos;s capital city</p>
                     </div>
 
                     <Row>

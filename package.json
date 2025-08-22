@@ -15,6 +15,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.7",
+    "critters": "^0.0.23",
     "next": "15.5.0",
     "react": "19.1.0",
     "react-bootstrap": "^2.10.10",

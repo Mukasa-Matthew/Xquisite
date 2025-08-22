@@ -4,15 +4,11 @@ import { Navbar, Container, Nav, NavbarBrand, NavLink } from 'react-bootstrap';
 import { FaMobileAlt, FaHeadphones, FaMapMarkerAlt, FaPhone, FaEnvelope, FaInstagram, FaSnapchatGhost, FaTiktok, FaArrowRight, FaTabletAlt, FaChargingStation } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
-  const [isVisible, setIsVisible] = useState(false);
-
   useEffect(() => {
-    setIsVisible(true);
-
     // Scroll animation observer
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
