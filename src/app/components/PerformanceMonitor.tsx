@@ -39,9 +39,9 @@ export default function PerformanceMonitor() {
                     });
 
                     observer.observe({ entryTypes: ['largest-contentful-paint', 'first-input', 'layout-shift'] });
-                } catch (e) {
-                    console.log('Performance monitoring not supported');
-                }
+                        } catch {
+            console.log('Performance monitoring not supported');
+        }
             }
         }
     }, []);

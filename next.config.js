@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Turbopack configuration
-    turbo: {
-        root: '.',
-    },
 
     // Image optimization
     images: {

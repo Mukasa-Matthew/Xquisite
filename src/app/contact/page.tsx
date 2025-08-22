@@ -1,7 +1,7 @@
 'use client';
 
 import { Navbar, Container, Nav, NavbarBrand, NavLink, Row, Col, Card, Form, Button } from 'react-bootstrap';
-import { FaMobileAlt, FaHeadphones, FaTools, FaShieldAlt, FaTabletAlt, FaChargingStation, FaStar, FaHandshake, FaClock, FaUser, FaMapMarkerAlt, FaPhone, FaEnvelope, FaInstagram, FaSnapchatGhost, FaTiktok, FaArrowRight, FaCheckCircle, FaArrowLeft, FaWhatsapp, FaClock as FaClockIcon } from 'react-icons/fa';
+import { FaUser, FaMapMarkerAlt, FaPhone, FaEnvelope, FaInstagram, FaSnapchatGhost, FaTiktok, FaArrowLeft, FaWhatsapp, FaClock as FaClockIcon } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import Image from 'next/image';
 import Link from 'next/link';
